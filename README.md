@@ -6,7 +6,7 @@ This project tracks the movement of zombies over the grid and converts the creat
 - Docker (not mandatory but good to have in order to run project with test cases without any hassle)
 
 ## How to run the project:
-***With Docker***
+### With Docker
 - first, unzip the project if you already have zip bundle or clone this <a href="https://kinjal63@bitbucket.org/kinjal63/ailo-zombie-challenge.git">repository</a> otherwise.
 - go to project root folder by running below command
 
@@ -20,7 +20,7 @@ This project tracks the movement of zombies over the grid and converts the creat
    docker run ailo-zombie-challenge-kp
    ```
 
-***Without Docker***
+### Without Docker
 
 **For Linux & Mac platforms**
 - go to project root folder and check for script file "run-zombie-challenge.sh" under script directory
