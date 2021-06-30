@@ -40,7 +40,7 @@ Each test case output contains 3 seperate sections in console as asked in proble
 4\
 (3,1)\
 (0,1),(1,2),(1,1)\
-RDRU\
+RDRU
 
 ----- Zombie Movements------\
 Zombie 0 moved to (0,1)\
@@ -50,13 +50,13 @@ Zombie 0 moved to (1,2)\
 Zombie 0 infected creature at (1,2)\
 Zombie 0 moved to (1,1)\
 Zombie 0 infected creature at (1,1)\
-Zombie 1 moved to (1,1)\
-\
+Zombie 1 moved to (1,1)
+
 ----------------------  OUTPUT  ----------------------\
 zombies' positions:\
 (1,1), (2,1), (3,1), (3,2)\
 creatures' positions:\
-none\
+none
 
 ## How to add custom test case
 Test cases are written using JUnit test framework in source folder "test" using package com.test.ailo
