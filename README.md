@@ -91,3 +91,8 @@ If you want to test custom inputs beyond provided one, please add one or more te
 	}
 
 ***Note*** : Above method is for reference, please change inputs and expected values to assert
+
+## Assumptions
+- grid size will always be in the range of integer i.e 2^32 - 1,
+- there can be at least one creature exist in grid
+- one zombie may follow more than 1 path along the grid i.e. LDRR, RDUR are valid movements
