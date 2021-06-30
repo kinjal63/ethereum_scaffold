@@ -34,30 +34,30 @@ Each test case output contains 3 seperate sections in console as asked in proble
 2. zombie movements
 3. output
 
-**for example,**\
+**for example,** \
 
 -------------- Inputs -------------\
 4\
 (3,1)\
 (0,1),(1,2),(1,1)\
-RDRU
+RDRU\
 
------ Zombie Movements------
-Zombie 0 moved to (0,1)
-Zombie 0 infected creature at (0,1)
-Zombie 0 moved to (0,2)
-Zombie 0 moved to (1,2)
-Zombie 0 infected creature at (1,2)
-Zombie 0 moved to (1,1)
-Zombie 0 infected creature at (1,1)
-Zombie 1 moved to (1,1)
-
-----------------------  OUTPUT  ----------------------
-zombies' positions:
-(1,1), (2,1), (3,1), (3,2)
-creatures' positions:
-none
-
+----- Zombie Movements------\
+Zombie 0 moved to (0,1)\
+Zombie 0 infected creature at (0,1)\
+Zombie 0 moved to (0,2)\
+Zombie 0 moved to (1,2)\
+Zombie 0 infected creature at (1,2)\
+Zombie 0 moved to (1,1)\
+Zombie 0 infected creature at (1,1)\
+Zombie 1 moved to (1,1)\
+\
+----------------------  OUTPUT  ----------------------\
+zombies' positions:\
+(1,1), (2,1), (3,1), (3,2)\
+creatures' positions:\
+none\
+\
 ## How to add custom test case
 Test cases are written using JUnit test framework in source folder "test" using package com.test.ailo
 If you want to test custom inputs beyond provided one, please add one or more test methods as below in class TestZombieChallenge.java under directory com/test/ailo in "test" folder.
