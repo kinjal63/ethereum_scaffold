@@ -22,9 +22,10 @@ This project tracks the movement of zombies over the grid and converts the creat
 	</li>
 </ul>
 
-***Without Docker***\
-- go to project root folder and check for script file "run-zombie-challenge.sh" under script directory \
+***Without Docker***
+- go to project root folder and check for script file "run-zombie-challenge.sh" under script directory
 - run below command
+- 
   ```
   sh run-zombie-challenge.sh
   ````
