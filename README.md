@@ -25,7 +25,7 @@ This project tracks the movement of zombies over the grid and converts the creat
 - run below command
  
   ```
-  sh run-zombie-challenge.sh
+  sh scripts\run-zombie-challenge.sh
   ````
 
 ## How to observe output
