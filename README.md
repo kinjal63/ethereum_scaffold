@@ -8,7 +8,7 @@ This project tracks the movement of zombies over the grid and converts the creat
 ## How to run the project:
 ***With Docker***
 - first, unzip the project if you already have zip bundle or clone the repository otherwise.
-- go to project root folder after running below command
+- go to project root folder by running below command
 
    ```sh
    cd ailo-zombie-challenge
@@ -34,12 +34,12 @@ Each test case output contains 3 seperate sections in console as asked in proble
 2. zombie movements
 3. output
 
-**for example,**
+**for example,**\
 
--------------- Inputs -------------
-4
-(3,1)
-(0,1),(1,2),(1,1)
+-------------- Inputs -------------\
+4\
+(3,1)\
+(0,1),(1,2),(1,1)\
 RDRU
 
 ----- Zombie Movements------
