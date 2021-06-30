@@ -22,15 +22,15 @@ This project tracks the movement of zombies over the grid and converts the creat
 
 ***Without Docker***
 
-  *For Linux & Mac platforms*
+**For Linux & Mac platforms**
 - go to project root folder and check for script file "run-zombie-challenge.sh" under script directory
 - run below command
  
   ```
-  sh scripts\run-zombie-challenge.sh
+  sh scripts/run-zombie-challenge.sh
   ````
   
-  *For Windows platform*
+**For Windows platform**
 - go to project root folder and check for bat file "run-zombie-challenge.bat" under script directory
 - run below command
 
