@@ -1,11 +1,11 @@
 ## About The Zombie Challenge
 This project tracks the movement of zombies over the grid and converts the creatures into zombies if they encounter the creatures on their path and newly created zombie will then start the movement in same path as original. This process continues until all zombies (initial + converted) finish their movement.
 
-### Prerequisites:
+## Prerequisites:
 - Java 8+
 - Docker (not mandatory but good to have in order to run project with test cases without any hassle)
 
-### How to run the project:
+## How to run the project:
 ***With Docker***
 <ul>
 	<li>first, unzip the project if you already have zip bundle or clone the repository otherwise.</li>
@@ -23,16 +23,13 @@ This project tracks the movement of zombies over the grid and converts the creat
 </ul>
 
 ***Without Docker***
-<ul>
-	<li>go to project root folder and check for run-zombie-challenge.sh</li>
-	<li>run below command 
-	  ```sh 
-	  sh run-zombie-challenge.sh
-	  ````
-	</li>
-</ul>
+go to project root folder and check for run-zombie-challenge.sh  
+run below command  
+  ```
+  sh run-zombie-challenge.sh
+  ````
 
-### How to observe output
+## How to observe output
 Each test case output contains 3 seperate sections in console as asked in problem statement.
 1. input
 2. zombie movements
@@ -62,7 +59,7 @@ zombies' positions:
 creatures' positions:
 none
 
-### How to add custom test case
+## How to add custom test case
 Test cases are written using JUnit test framework in source folder "test" using package com.test.ailo
 If you want to test custom inputs beyond provided one, please add one or more test methods as below in class TestZombieChallenge.java under directory com/test/ailo in "test" folder.
 
