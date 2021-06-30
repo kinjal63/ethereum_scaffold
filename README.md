@@ -10,12 +10,12 @@ This project tracks the movement of zombies over the grid and converts the creat
 <ul>
 	<li>first, unzip the project if you already have zip bundle or clone the repository otherwise.</li>
 	<li>go to project root folder after running below command
-		```sh
+	   ```sh
 	   cd ailo-zombie-challenge
 	   ```
 	</li>
 	<li>then, run below commands
-		```sh
+	   ```sh
 	   docker build -t ailo-zombie-challenge-kp .
 	   docker run ailo-zombie-challenge-kp
 	   ```
